@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
-import Cover from '../assets/ml-dev-logo.png';
+import Cover from '../assets/logo_3.png';
 import {Link} from 'react-scroll';
 
 const Navbar = () => {
