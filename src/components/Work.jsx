@@ -28,7 +28,7 @@ return (
       {/* Card for Python Project 1 */}
       <div
         style={{ backgroundImage: `url(${PythonProject1})` }}
-        className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
+        className='w-full shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
       >
         {/* Hover Effects */}
         <div className='opacity-0 group-hover:opacity-100'>
@@ -66,7 +66,7 @@ return (
       {/* Card for Python Project 2 */}
       <div
         style={{ backgroundImage: `url(${PythonProject2})` }}
-        className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
+        className='w-full shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
       >
         {/* Hover Effects */}
         <div className='opacity-0 group-hover:opacity-100'>
@@ -100,7 +100,7 @@ return (
       {/* Card for Python Project 3 */}
       <div
         style={{ backgroundImage: `url(${PythonProject3})` }}
-        className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
+        className='w-full shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
       >
         {/* Hover Effects */}
         <div className='opacity-0 group-hover:opacity-100'>
@@ -149,7 +149,7 @@ return (
         {/* Card */}
         <div
           style={{ backgroundImage: `url(${Inara})` }}
-          className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
+          className='w-full shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
         >
           {/* Hover Effects */}
           <div className='opacity-0 group-hover:opacity-100'>
@@ -186,7 +186,7 @@ return (
         {/* Card */}
         <div
           style={{ backgroundImage: `url(${Cafe})` }}
-          className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
+          className='w-full shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
         >
           {/* Hover Effects */}
           <div className='opacity-0 group-hover:opacity-100'>
@@ -223,7 +223,7 @@ return (
         {/* Card */}
         <div
           style={{ backgroundImage: `url(${Adventure})` }}
-          className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
+          className='w-full shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
         >
           {/* Hover Effects */}
           <div className='opacity-0 group-hover:opacity-100'>
