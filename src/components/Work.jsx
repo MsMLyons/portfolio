@@ -23,6 +23,7 @@ return (
         <p className='py-8'>Take a look at some of my Python projects:</p>
       </div>
     </div>
+    
     {/* Grid Container for Python Projects */}
     <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
       {/* Card for Python Project 1 */}
@@ -136,12 +137,14 @@ return (
         </div>
       </div>
 
-      {/* New section for Web Projects */}
-      <div className='pb-8'>
-        <p className='text-4xl font-bold inline border-b-4 border-[#00FFFF]'>
-          Web Development
-        </p>
-        <p className='py-8'>Take a look at some of my work:</p>
+      <div className='max-w-[1000px] mx-auto p-8 flex flex-col justify-center w-full h-full'>
+        {/* New section for Web Projects */}
+        <div className='pb-8'>
+          <p className='text-4xl font-bold inline border-b-4 border-[#00FFFF]'>
+            Web Development
+          </p>
+          <p className='py-8'>Take a look at some of my work:</p>
+        </div>
       </div>
 
       {/* Grid Container - change grid size here, first line of container */}
