@@ -2,9 +2,9 @@ import React from 'react';
 import Adventure from '../assets/Adventure.jpg';
 import Inara from '../assets/Inara.jpg';
 import Cafe from '../assets/Cafe.jpg';
-import p1 from '../assets/p1.jpg';
-import p2 from '../assets/p2.jpg';
-import p3 from '../assets/p3.jpg';
+import p1 from '../assets/p1.png';
+import p2 from '../assets/p2.png';
+import p3 from '../assets/p3.png';
 
 
 const Work = () => {
