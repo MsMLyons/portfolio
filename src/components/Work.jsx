@@ -2,9 +2,9 @@ import React from 'react';
 import Adventure from '../assets/Adventure.jpg';
 import Inara from '../assets/Inara.jpg';
 import Cafe from '../assets/Cafe.jpg';
-import PythonProject1 from '../assets/PythonProject1.png';
-import PythonProject2 from '../assets/PythonProject2.png';
-import PythonProject3 from '../assets/PythonProject3.png';
+import p1 from '../assets/p1.jpg';
+import p2 from '../assets/p2.jpg';
+import p3 from '../assets/p3.jpg';
 
 
 const Work = () => {
@@ -27,7 +27,7 @@ return (
     <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
       {/* Card for Python Project 1 */}
       <div
-        style={{ backgroundImage: `url(${PythonProject1})` }}
+        style={{ backgroundImage: `url(${p1})` }}
         className='w-full shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
       >
         {/* Hover Effects */}
@@ -65,7 +65,7 @@ return (
       </div>
       {/* Card for Python Project 2 */}
       <div
-        style={{ backgroundImage: `url(${PythonProject2})` }}
+        style={{ backgroundImage: `url(${p2})` }}
         className='w-full shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
       >
         {/* Hover Effects */}
@@ -99,7 +99,7 @@ return (
       </div>
       {/* Card for Python Project 3 */}
       <div
-        style={{ backgroundImage: `url(${PythonProject3})` }}
+        style={{ backgroundImage: `url(${p3})` }}
         className='w-full shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
       >
         {/* Hover Effects */}
