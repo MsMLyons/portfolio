@@ -4,6 +4,8 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import PythonProjects from './components/PythonProjects';
+import FrontEnd from './components/Work';
 
 
 function App() {
@@ -12,7 +14,8 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Work />
+      <PythonProjects />
+      <FrontEnd />
       <Skills />
       <Contact />
     </div>
