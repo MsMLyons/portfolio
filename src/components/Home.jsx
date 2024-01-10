@@ -2,11 +2,7 @@ import React from 'react';
 import {HiArrowNarrowRight} from 'react-icons/hi';
 import {Link as ScrollLink} from 'react-scroll';
 
-const Home = () => {
-    const scrollToAbout = () => {
-      const aboutSection = document.getElementById('about');
-      aboutSection.scrollIntoView({behavior: 'smooth'});
-    };
+const Home = () => {   
 
   return (
     
