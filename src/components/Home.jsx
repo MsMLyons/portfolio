@@ -1,5 +1,4 @@
 import React from 'react';
-import { HiArrowNarrowRight } from 'react-icons/hi';
 import {Link as ScrollLink} from 'react-scroll';
 
 const Home = () => {   
@@ -32,8 +31,7 @@ const Home = () => {
             offset={-90} // Adjust the offset based on your layout
             className='inline-block text-[#00FFFF] group border-2 border-[#00FFFF] rounded-xl px-6 py-3 my-4 hover:bg-[#0a192f]'
           >
-            Learn More
-            <HiArrowNarrowRight className='ml-2' />
+            Learn More ↓
           </ScrollLink>
         </div>
       </div>
