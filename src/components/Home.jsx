@@ -24,7 +24,7 @@ const Home = () => {
                   duration={500}
                   spy={true}
                   offset={-200}  // Adjust the offset based on your layout
-                  className='text-[#00FFFF] group border-2 border-[#00FFFF] rounded-xl px-6 py-3 my-4 flex items-center hover:bg-[#0a192f]'
+                  className='inline-block text-[#00FFFF] group border-2 border-[#00FFFF] rounded-xl px-6 py-3 my-4 hover:bg-[#0a192f]'
                 >
                   Scroll to Learn More 
                 <span className='group-hover:rotate-90 duration-300'>
