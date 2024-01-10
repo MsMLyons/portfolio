@@ -27,7 +27,7 @@ return (
             </Link>
         </li>
         <li>
-            <Link to='work' smooth={true} duration={500}>
+            <Link to='pythonprojects' smooth={true} duration={500}>
             Python
             </Link>
         </li>
