@@ -23,10 +23,10 @@ const Home = () => {
                   smooth={true}
                   duration={500}
                   spy={true}
-                  offset={-200}  // Adjust the offset based on your layout
+                  offset={-100}  // Adjust the offset based on your layout
                   className='inline-block text-[#00FFFF] group border-2 border-[#00FFFF] rounded-xl px-6 py-3 my-4 hover:bg-[#0a192f]'
                 >
-                  Scroll to Learn More 
+                  Learn More 
                 <span className='group-hover:rotate-90 duration-300'>
                 <HiArrowNarrowRight className='ml-2'/>
                 </span>
