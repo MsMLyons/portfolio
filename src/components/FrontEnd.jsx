@@ -7,7 +7,7 @@ const FrontEnd = () => {
     return (
     <div
     name='work'
-    className='w-full md:h-screen bg-gradient-to-l from-[#020024]  to-[#00d5ff] text-[#e6e8ed]'
+    className='w-full min-h-screen bg-gradient-to-l from-[#020024]  to-[#00d5ff] text-[#e6e8ed]'
     >
     {/* Container */}
     <div className='max-w-[1000px] mx-auto p-8 flex flex-col justify-center w-full h-full'>
