@@ -1,12 +1,13 @@
-import React from 'react'
-import {HiArrowNarrowRight} from 'react-icons/hi'
+import React from 'react';
+import {HiArrowNarrowRight} from 'react-icons/hi';
+import {Link as ScrollLink} from 'react-scroll';
 
 const Home = () => {
     const scrollToAbout = () => {
       const aboutSection = document.getElementById('about');
       aboutSection.scrollIntoView({behavior: 'smooth'});
     };
-    
+
   return (
     
     <div name='home' className='w-full h-screen bg-gradient-to-r from-[#020024]  to-[#00d5ff]'>
@@ -21,15 +22,19 @@ const Home = () => {
                 web applications.
             </p>
             <div>
-                <button 
+                <ScrollLink
+                  to='about'
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  offset={-200}  // Adjust the offset based on your layout
                   className='text-[#00FFFF] group border-2 border-[#00FFFF] rounded-xl px-6 py-3 my-4 flex items-center hover:bg-[#0a192f]'
-                  onClick={scrollToAbout}
-                  >
+                >
                   Scroll to Learn More 
                 <span className='group-hover:rotate-90 duration-300'>
                 <HiArrowNarrowRight className='ml-2'/>
                 </span>
-                </button>
+                </ScrollLink>
             </div>
         </div>
     </div>
