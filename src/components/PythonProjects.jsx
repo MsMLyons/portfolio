@@ -7,7 +7,7 @@ const PythonProjects = () => {
     return (
     <div
         name='pythonprojects'
-        className='w-full min-h-screen bg-gradient-to-b from-[#010f33] to-[#00d4ff] text-[#e6e8ed]'
+        className='w-full md:h-screen bg-gradient-to-b from-[#010f33] to-[#00d4ff] text-[#e6e8ed]'
     >
         {/* Container */}
         <div className='max-w-[1000px] mx-auto p-8 flex flex-col justify-center w-full h-full'>
@@ -25,7 +25,7 @@ const PythonProjects = () => {
       {/* Card for Python Project 1 */}
       <div
         style={{ backgroundImage: `url(${p1})` }}
-        className='w-full shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
+        className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div'
       >
         {/* Hover Effects */}
         <div className='opacity-0 group-hover:opacity-100'>          
@@ -62,7 +62,7 @@ const PythonProjects = () => {
       {/* Card for Python Project 2 */}
       <div
         style={{ backgroundImage: `url(${p2})` }}
-        className='w-full shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
+        className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div'
       >
         {/* Hover Effects */}
         <div className='opacity-0 group-hover:opacity-100'>          
@@ -99,7 +99,7 @@ const PythonProjects = () => {
       {/* Card for Python Project 3 */}
       <div
         style={{ backgroundImage: `url(${p3})` }}
-        className='w-full shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
+        className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div'
       >
         {/* Hover Effects */}
         <div className='opacity-0 group-hover:opacity-100'>          
