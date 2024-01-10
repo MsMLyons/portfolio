@@ -2,6 +2,11 @@ import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 
 const Home = () => {
+    const scrollToAbout = () => {
+      const aboutSection = document.getElementById('about');
+      aboutSection.scrollIntoView({behavior: 'smooth'});
+    };
+    
   return (
     
     <div name='home' className='w-full h-screen bg-gradient-to-r from-[#020024]  to-[#00d5ff]'>
@@ -16,7 +21,11 @@ const Home = () => {
                 web applications.
             </p>
             <div>
-                <button className='text-[#00FFFF] group border-2 border-[#00FFFF] rounded-xl px-6 py-3 my-4 flex items-center hover:bg-[#0a192f]'>Scroll to Learn More 
+                <button 
+                  className='text-[#00FFFF] group border-2 border-[#00FFFF] rounded-xl px-6 py-3 my-4 flex items-center hover:bg-[#0a192f]'
+                  onClick={scrollToAbout}
+                  >
+                  Scroll to Learn More 
                 <span className='group-hover:rotate-90 duration-300'>
                 <HiArrowNarrowRight className='ml-2'/>
                 </span>
