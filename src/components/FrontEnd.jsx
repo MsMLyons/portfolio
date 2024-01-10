@@ -7,7 +7,7 @@ const FrontEnd = () => {
     return (
       <div
         name='work'
-        className='w-full min-h-screen bg-gradient-to-l from-[#020024]  to-[#00d5ff] text-[#e6e8ed]'
+        className='w-full md:h-screen bg-gradient-to-l from-[#020024]  to-[#00d5ff] text-[#e6e8ed]'
       >
         {/* Container */}
         <div className='max-w-[1000px] mx-auto p-8 flex flex-col justify-center w-full h-full'>
@@ -25,7 +25,7 @@ const FrontEnd = () => {
           {/* Card */}
           <div
             style={{ backgroundImage: `url(${Inara})` }}
-            className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[100px]'
+            className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -62,7 +62,7 @@ const FrontEnd = () => {
           {/* Card */}
           <div
             style={{ backgroundImage: `url(${Cafe})` }}
-            className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[100px]'
+            className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -99,7 +99,7 @@ const FrontEnd = () => {
           {/* Card */}
           <div
             style={{ backgroundImage: `url(${Adventure})` }}
-            className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[100px]'
+            className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
