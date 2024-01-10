@@ -25,7 +25,7 @@ const FrontEnd = () => {
           {/* Card */}
           <div
             style={{ backgroundImage: `url(${Inara})` }}
-            className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
+            className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[250px]'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -62,7 +62,7 @@ const FrontEnd = () => {
           {/* Card */}
           <div
             style={{ backgroundImage: `url(${Cafe})` }}
-            className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
+            className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[250px]'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -99,7 +99,7 @@ const FrontEnd = () => {
           {/* Card */}
           <div
             style={{ backgroundImage: `url(${Adventure})` }}
-            className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[200px]'
+            className='shadow-lg shadow-[#020024] group container rounded-md flex justify-center items-center mx-auto content-div h-auto md:h-[250px]'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
